@@ -16,4 +16,4 @@ Here are the breakdowns and steps for our research:
 - 4_regime_performance: after select final model, we learned how dual mom strategy performed under different regimes, which provides insights for the eventual integration of the regime model and our dynamic asset allocation framework.
 
 3. Dynamic Asset Allocation: (DAA folder)
-- Dynamic_MVO file is responsible for creating all types of allocation schema and comparing their performances. This file take the return data output from "Replicate" and regime data output from "3_Final_model". 
+- allocation.py is responsible for creating all types of allocation schema and comparing their performances. This file take the return data output from "Replicate" and regime data output from "3_Final_model". 
